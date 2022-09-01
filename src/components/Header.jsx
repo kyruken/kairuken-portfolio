@@ -11,7 +11,7 @@ export default function Header() {
             </ul>
 
             <ul className="navbar-list-2-2">
-                <li><a href="google.com" target="_blank"><LinkedInIcon sx={{ fontSize: "3rem" }} /></a></li>
+                <li><a href="google.com" target="_blank"><LinkedInIcon sx={{ fontSize: "3.3rem" }} /></a></li>
                 <a href="roblox.com" target="_blank"><GitHubIcon sx={{ fontSize: "3rem" }} /></a>
             </ul>
 
