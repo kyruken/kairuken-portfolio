@@ -48,21 +48,40 @@ a:hover {
 
 /* Home styles */
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 5%;
 
 }
 
+/* Header styles */
 .header-container h1 {
   font-size: 4.5rem;
 }
 
 .header-1-2 {
+  line-height: 36px;
   width: 50%;
 }
 
 .header-photo {
   border-radius: 50%;
   width: 90%;
+}
+
+/* Technologies styles */
+.technology-list-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.technology-list-container > div {
+  border: 5px solid black;
+  width: 350px;
 }
