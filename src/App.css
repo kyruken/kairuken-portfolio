@@ -1,8 +1,17 @@
+
+/* Resets */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 ul, li {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
+/* ^ Resets ^ */
 
 a {
   color: inherit;
@@ -35,4 +44,25 @@ a:hover {
   display: flex;
   gap: 30%;
   margin-right: 5%;
+}
+
+/* Home styles */
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.header-container h1 {
+  font-size: 4.5rem;
+}
+
+.header-1-2 {
+  width: 50%;
+}
+
+.header-photo {
+  border-radius: 50%;
+  width: 90%;
 }

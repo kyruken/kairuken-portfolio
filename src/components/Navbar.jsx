@@ -1,7 +1,7 @@
 import React from "react"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-export default function Header() {
+export default function Navbar() {
     return (
         <nav className="navbar-container">
             <ul className="navbar-list-1-2">
