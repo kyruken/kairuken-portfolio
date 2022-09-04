@@ -59,8 +59,23 @@ export default function Home() {
                         <p>Vite</p>
                     </div>
                 </div>
+            </section>
 
-
+            <section className="aboutme-container">
+                <h3>About Me</h3>
+                <p>
+                    I'm a front-end developer who has a passion to provide the best UI experience possible. I want to work hard to
+                    provide the best service I can.
+                </p>
+                <p>
+                    After dropping out of school in 2021, I wanted to continue my journey of programming. That is when I found
+                    web development, and I loved learning more about the web. I decided that I would pursue web development and learn
+                    about all the technologies, techniques, and tools behind creating the best user experience and user interface for web pages.
+                </p>
+                <p>
+                    On a different note, I'm a big fan of powerlifting and bodybuilding, video game nerd, and a knack for Japanese animated
+                    shows. 
+                </p>
             </section>
 
         </div>
