@@ -11,6 +11,10 @@ ul, li {
   margin: 0;
 }
 
+body {
+  margin: 0;
+}
+
 /* ^ Resets ^ */
 
 a {
@@ -30,12 +34,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+.navbar-list-1-2,
 .navbar-list-1-2 {
-  display: flex;
-  gap: 15%;
-}
-
-.navbar-list-2-2 {
   display: flex;
   gap: 15%;
 }
@@ -88,4 +88,32 @@ a:hover {
 
 .aboutme-container {
   width: 80%;
+}
+
+/* Footer container */
+
+.footer-container {
+  background-color: #474954;
+  padding: 50px 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-list-1-2 {
+  color: #90ee90;
+  display: flex;
+  gap: 16px;
+
+}
+
+footer a:hover {
+  color: #90ee90;
+}
+
+footer .navbar-list-2-2 {
+  margin-left: 10px;
 }
