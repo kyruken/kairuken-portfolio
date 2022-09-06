@@ -29,7 +29,9 @@ a:hover {
 /* Navbar styles */
 
 .navbar-container {
-  padding: 50px 25px;
+  background-color: #fff;
+  box-shadow: 0 0 3.5rem rgba(0, 0, 0, 0.3);
+  padding: 25px 25px 0 25px;
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
@@ -44,6 +46,7 @@ a:hover {
   display: flex;
   gap: 30%;
   margin-right: 5%;
+  margin-bottom: 15px;
 }
 
 /* Home styles */
@@ -52,9 +55,11 @@ a:hover {
 
 }
 .header-container {
+  background-color: #fff;
   display: flex;
   justify-content: center;
   gap: 5%;
+  padding-top: 50px;
 
 }
 
