@@ -17,6 +17,13 @@ body {
 
 /* ^ Resets ^ */
 
+h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-left: 5%;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
@@ -54,6 +61,7 @@ a:hover {
 .home-container {
 
 }
+
 .header-container {
   background-color: #fff;
   display: flex;
@@ -61,6 +69,11 @@ a:hover {
   gap: 5%;
   padding-top: 50px;
 
+}
+
+.header-1-2 div:first-child {
+  font-size: 3rem;
+  
 }
 
 /* Header styles */
@@ -78,6 +91,48 @@ a:hover {
   width: 90%;
 }
 
+/* Projects styles */
+.projects-container {
+  background-color: #eaf9f4;
+  padding: 50px 0 75px 0;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.project {
+  background-color: #F9EAEF;
+  box-shadow: 12px 12px 1px 1px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* styles for project boxes */
+
+.project img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+
+.project ul {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+
+.project-text {
+  padding: 25px 25px;
+}
+
+.project li {
+  color: gray;
+}
 /* Technologies styles */
 .technology-list-container {
   display: flex;

@@ -5,7 +5,7 @@ export default function Home() {
         <div className="home-container">
             <section className="header-container">
                 <div className="header-1-2">
-                    <h2>Hello, I'm</h2>
+                    <div>Hello I'm</div>
                     <h1>Kyle Arenas</h1>
                     <p>I am a self taught web developer who loves problem solving, creative thinking,
                         and organization.
@@ -25,21 +25,35 @@ export default function Home() {
                 <h2>Projects</h2>
                 <div className="project-cards">
                     <div className="project">
-                        <img></img>
-                        <h3>Devil's Werk Business Website</h3>
-                        <p>
-                            Redesigned an old website using modern day HTML5, CSS3, and Javascript procedures. Also used React and Bootstrap to 
-                            organize code, use reusable styles, and create reusable components throughout the website.
-                        </p>
+                        <img src="./src/assets/project1.png"></img>
+                        <div className="project-text">
+                            <h3>Devil's Werk Business Website</h3>
+                            <p>
+                                Redesigned an old website using modern day HTML5, CSS3, and Javascript procedures. Also used React and Bootstrap to
+                                organize code, use reusable styles, and create reusable components throughout the website.
+                            </p>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>React</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="project">
-                        <img></img>
-                        <h3>Tic-Tac-Toe</h3>
-                        <p>
-                            A fun game project that users can play on the web browser. This Tic-Tac-Toe project is meant to be 
-                            played with two players where a player will play as O and the other will be X to mark squares.
-                        </p>
+                        <img src="./src/assets/project2.png"></img>
+                        <div className="project-text">
+                            <h3>Tic-Tac-Toe</h3>
+                            <p>
+                                A fun game project that users can play on the web browser. This Tic-Tac-Toe project is meant to be
+                                played with two players where a player will play as O and the other will be X to mark squares.
+                            </p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -79,7 +93,7 @@ export default function Home() {
             </section>
 
             <section className="aboutme-container">
-                <h3>About Me</h3>
+                <h2>About Me</h2>
                 <p>
                     I'm a front-end developer who has a passion to provide the best UI experience possible. I want to work hard to
                     provide the best service I can.
