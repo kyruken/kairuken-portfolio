@@ -24,6 +24,23 @@ export default function Home() {
             <section className="projects-container">
                 <h2>Projects</h2>
                 <div className="project-cards">
+                    <div className="project">
+                        <img></img>
+                        <h3>Devil's Werk Business Website</h3>
+                        <p>
+                            Redesigned an old website using modern day HTML5, CSS3, and Javascript procedures. Also used React and Bootstrap to 
+                            organize code, use reusable styles, and create reusable components throughout the website.
+                        </p>
+                    </div>
+
+                    <div className="project">
+                        <img></img>
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>
+                            A fun game project that users can play on the web browser. This Tic-Tac-Toe project is meant to be 
+                            played with two players where a player will play as O and the other will be X to mark squares.
+                        </p>
+                    </div>
 
                 </div>
             </section>
