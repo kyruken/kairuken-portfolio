@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="project">
                         <img src="./src/assets/project1.png"></img>
                         <div className="project-text">
-                            <h3>Devil's Werk Business Website</h3>
+                            <h3>Devil's Werk Website</h3>
                             <p>
                                 Redesigned an old website using modern day HTML5, CSS3, and Javascript procedures. Also used React and Bootstrap to
                                 organize code, use reusable styles, and create reusable components throughout the website.
@@ -37,6 +37,10 @@ export default function Home() {
                                 <li>React</li>
                                 <li>Bootstrap</li>
                             </ul>
+                            <div className="button-layout">
+                                <button>Demo</button>
+                                <button>Github</button>
+                            </div>
                         </div>
                     </div>
 
@@ -53,6 +57,10 @@ export default function Home() {
                                 <li>CSS3</li>
                                 <li>Javascript</li>
                             </ul>
+                            <div className="button-layout">
+                                <button>Demo</button>
+                                <button>Github</button>
+                            </div>
                         </div>
                     </div>
 
