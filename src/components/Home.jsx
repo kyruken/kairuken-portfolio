@@ -1,4 +1,8 @@
 import React from "react"
+import WebIcon from '@mui/icons-material/Web';
+import LanguageIcon from '@mui/icons-material/Language';
+import ConstructionIcon from '@mui/icons-material/Construction';
+import EmailIcon from '@mui/icons-material/Email';
 
 export default function Home() {
     return (
@@ -7,13 +11,9 @@ export default function Home() {
                 <div className="header-1-2">
                     <div>Hello I'm</div>
                     <h1>Kyle Arenas</h1>
-                    <p>I am a self taught web developer who loves problem solving, creative thinking,
-                        and organization.
-                    </p>
+                    I am a self taught web developer who loves problem solving, creative thinking,
+                    and organization.
                     
-                    <p>There are absolutely ways for better or optimal solutions in every hobby or field
-                        in my opinion. I apply this way of thinking to web development, and I strive to learn and apply better solutions.
-                    </p>
                 </div>
 
                 <div className="header-2-2">
@@ -72,10 +72,12 @@ export default function Home() {
                 <p>I have worked with many frameworks, libraries, and tools through my self learning journey. I enjoy
                     learning new technologies because I love learning new things.
                 </p>
-
                 <div className="technology-list-container">
                     <div className="column-1-3">
-                        <h3>Web Programming</h3>
+                        <div className="header-border">
+                            <WebIcon />
+                            <h3>Web Programming</h3>
+                        </div>
                         <p>HTML5</p>
                         <p>CSS3</p>
                         <p>React</p>
@@ -84,13 +86,19 @@ export default function Home() {
                     </div>
 
                     <div className="column-2-3">
-                        <h3>Languages</h3>
+                        <div className="header-border">
+                            <LanguageIcon />
+                            <h3>Languages</h3>
+                        </div>
                         <p>Javascript</p>
                         <p>Python</p>
                     </div>
                     
                     <div className="column-3-3">
-                        <h3>Tools</h3>
+                        <div className="header-border">
+                            <ConstructionIcon />
+                            <h3>Tools</h3>
+                        </div>
                         <p>Git</p>
                         <p>Github</p>
                         <p>Visual Code Studio</p>
@@ -100,21 +108,20 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="aboutme-container">
-                <h2>About Me</h2>
-                <p>
-                    I'm a front-end developer who has a passion to provide the best UI experience possible. I want to work hard to
-                    provide the best service I can.
-                </p>
-                <p>
-                    After dropping out of school in 2021, I wanted to continue my journey of programming. That is when I found
-                    web development, and I loved learning more about the web. I decided that I would pursue web development and learn
-                    about all the technologies, techniques, and tools behind creating the best user experience and user interface for web pages.
-                </p>
-                <p>
-                    On a different note, I'm a big fan of powerlifting and bodybuilding, video game nerd, and a knack for Japanese animated
-                    shows. 
-                </p>
+            <section className="contact-container">
+                <h2>Contact Me</h2>
+                <div className="">
+                    <div className="header-border">
+                        <EmailIcon />
+                        <h3>Email</h3>
+                    </div>
+                    <p>Kyruken@gmail.com</p>
+                </div>
+            </section>
+
+            <section className="quote-container">
+                <div>The most certain way to succeed is always to try just one more time.</div>
+                <div>-Thomas Edison</div>
             </section>
 
         </div>

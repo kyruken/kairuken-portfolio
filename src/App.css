@@ -7,6 +7,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 ul, li {
   list-style-type: none;
   padding: 0;
@@ -23,7 +28,6 @@ h2 {
   font-size: 3.5rem;
   font-weight: 600;
   letter-spacing: -2px;
-  margin-left: 5%;
 }
 
 a {
@@ -60,9 +64,10 @@ a:hover {
 
 /* Home styles */
 
-.home-container {
-
+.home-container h2 {
+  margin-left: 5%;
 }
+
 
 .header-container {
   background-color: #fff;
@@ -156,20 +161,36 @@ button {
   margin-top: 15px;
 }
 /* Technologies styles */
+
+.technology-container {
+  background-color: #eaf9f4;
+  padding: 25px 0 75px 0;
+}
+
+.technology-container p {
+  width: 60%;
+}
 .technology-list-container {
   display: flex;
-  gap: 2rem;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .technology-list-container > div {
-  border: 5px solid black;
+  border-radius: 10px;
   width: 350px;
 }
 
-/* About Me container */
-
-.aboutme-container {
-  width: 80%;
+.header-border {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.header-border h3 {
+  font-weight: 600;
 }
 
 /* Footer container */
@@ -198,4 +219,30 @@ footer a:hover {
 
 footer .navbar-list-2-2 {
   margin-left: 10px;
+}
+
+/* Contact Me container */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+/* Quote container */
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+
+.quote-container div:first-child {
+  font-style: italic;
+}
+
+.quote-container div:nth-child(2) {
+  font-weight: 600;
+  margin-left: 30%
 }
