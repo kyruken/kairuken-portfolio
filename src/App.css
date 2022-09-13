@@ -46,10 +46,16 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.navbar-link a {
+  transition: all 0.4s ease 0s;
+}
+
 .navbar-link a:hover {
   color: rgba(141, 136, 136, 0.75);
   transition: all 0.4s ease 0s;
 }
+
 .navbar-list-1-2,
 .navbar-list-1-2 {
   display: flex;

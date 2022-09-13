@@ -11,8 +11,8 @@ export default function Navbar() {
             </ul>
 
             <ul className="navbar-list-2-2 navbar-link">
-                <li><a href="google.com" target="_blank"><LinkedInIcon sx={{ fontSize: "2.5rem" }} /></a></li>
-                <a href="roblox.com" target="_blank"><GitHubIcon sx={{ fontSize: "2.3rem" }} /></a>
+                <li><a href="https://www.linkedin.com/in/avery-kyle-arenas-49224a22a/" target="_blank"><LinkedInIcon sx={{ fontSize: "2.5rem" }} /></a></li>
+                <a href="https://github.com/kyruken" target="_blank"><GitHubIcon sx={{ fontSize: "2.3rem" }} /></a>
             </ul>
 
         </nav>
