@@ -64,10 +64,9 @@ a:hover {
 
 /* Home styles */
 
-.home-container h2 {
+.margin-left {
   margin-left: 5%;
 }
-
 
 .header-container {
   background-color: #fff;
@@ -243,6 +242,7 @@ footer .navbar-list-2-2 {
 }
 
 .quote-container div:nth-child(2) {
+  margin-top: 16px;
   font-weight: 600;
   margin-left: 30%
 }

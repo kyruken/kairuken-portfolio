@@ -22,7 +22,7 @@ export default function Home() {
             </section>
 
             <section className="projects-container">
-                <h2>Projects</h2>
+                <h2 className="margin-left">Projects</h2>
                 <div className="project-cards">
                     <div className="project">
                         <img src="./src/assets/project1.png"></img>
@@ -68,8 +68,8 @@ export default function Home() {
             </section>
 
             <section className="technology-container">
-                <h2>Technologies</h2>
-                <p>I have worked with many frameworks, libraries, and tools through my self learning journey. I enjoy
+                <h2 className="margin-left">Technologies</h2>
+                <p className="margin-left">I have worked with many frameworks, libraries, and tools through my self learning journey. I enjoy
                     learning new technologies because I love learning new things.
                 </p>
                 <div className="technology-list-container">
@@ -109,13 +109,13 @@ export default function Home() {
             </section>
 
             <section className="contact-container">
-                <h2>Contact Me</h2>
-                <div className="">
-                    <div className="header-border">
+                <h2 className="margin-left">Contact Me</h2>
+                <div className="margin-left">
+                    <div className="header-border margin-left">
                         <EmailIcon />
                         <h3>Email</h3>
                     </div>
-                    <p>Kyruken@gmail.com</p>
+                    <p className="margin-left">Kyruken@gmail.com</p>
                 </div>
             </section>
 
