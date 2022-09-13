@@ -7,7 +7,7 @@ import EmailIcon from '@mui/icons-material/Email';
 export default function Home() {
     return (
         <div className="home-container">
-            <section className="header-container">
+            <section className="header-container" id="home">
                 <div className="header-1-2">
                     <div>Hello I'm</div>
                     <h1>Kyle Arenas</h1>
@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="projects-container">
+            <section className="projects-container" id="projects">
                 <h2 className="margin-left">Projects</h2>
                 <div className="project-cards">
                     <div className="project">
@@ -67,7 +67,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="technology-container">
+            <section className="technology-container" id="technology">
                 <h2 className="margin-left">Technologies</h2>
                 <p className="margin-left">I have worked with many frameworks, libraries, and tools through my self learning journey. I enjoy
                     learning new technologies because I love learning new things.
@@ -108,7 +108,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="contact-container">
+            <section className="contact-container"id="contact">
                 <h2 className="margin-left">Contact Me</h2>
                 <div className="margin-left">
                     <div className="header-border margin-left">
